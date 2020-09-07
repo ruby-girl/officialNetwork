@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<title>智慧酒店解决方案</title>
+		<meta name="description" content="科技软件...">
+		<meta name="keywords" content="科技软件,科技软件开发,科技软件..">
+		<script type="text/javascript" src="./public/common.js"></script>
+		<script>
+			var wow = new WOW({
+				boxClass: 'wow',
+				animateClass: 'animated',
+				offset: 0,
+				mobile: false,
+				live: true
+			});
+			wow.init();
+			var offset = 200;
+			var duration = 500;
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > offset) {
+					$('.back-to-top').fadeIn(400);
+				} else {
+					$('.back-to-top').fadeOut(400);
+				}
+			});
+			$('.back-to-top').click(function(event) {
+				event.preventDefault();
+				$('html, body').animate({
+					scrollTop: 0
+				}, 600);
+				return false;
+			})
+		</script>
+		<style>
+			.wisdom_title {
+				position: absolute;
+				top: 10%;
+				left: 20%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 60%;
+				letter-spacing: 0.4rem;
+				color: #FFFFFF;
+				text-align: center;
+			}
+			.online_img1 {
+				position: absolute;
+				top: 0px;
+				right: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 35%;
+				letter-spacing: 0.4rem;
+				text-align: center;
+			}
+			.online_img2 {
+				position: absolute;
+				top: 50px;
+				left: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 35%;
+				letter-spacing: 0.4rem;
+				text-align: center;
+			}
+			.online_img3{
+				position: absolute;
+				top: 130px;
+				left: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 35%;
+				letter-spacing: 0.4rem;
+				text-align: center;
+			}
+			.online_img4{
+				position: absolute;
+				top: 80px;
+				right: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 35%;
+				letter-spacing: 0.4rem;
+				text-align: center;
+			}
+			.online_img5{
+				position: absolute;
+				top: 50px;
+				left: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 35%;
+				letter-spacing: 0.4rem;
+				text-align: center;
+			}
+			.btn{
+				color: #FFFFFF;
+				font-size: 18px;
+				border: 1px solid;
+				border-radius: 5px;
+				padding: 10px 50px;
+				background-color: #D7C4AC;
+			}
+			.solution{
+				/* border-bottom: 2px solid #FFFFFF; */
+			}
+			.nav-item {
+				flex: 1;
+			}
+			.nav-item a{
+				color: white;
+				margin: 10px;
+				padding: 1rem;
+			}
+			.nav-item .active{
+				border-bottom: 0.2rem solid #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="headerBg fixed-top">
+			<div class="container-fluid">
+				<div class="logo"><a href="#"><img src="images/index/logo.png" class="img-responsive" alt="" style="width: auto;height: 45px;"></a></div>
+				<div class="menuBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+		
+				<div class="clear"></div>
+				<div class="navBox hidden-xs hidden-sm">
+					<ul class="navList list-unstyled" style="float: right;">
+						<li class="navLi index ">
+							<h3><a href="index.html"><span>首页</span></a></h3>
+						</li>
+						<li class="navLi solution">
+							<h3><a href="javascript:void(0)"><span>解决方案</span></a></h3>
+							<div class="navSub">
+								<ul class="navSubList list-unstyled">
+									<li class="navSubLi">
+										<h4><a href="Wisdom-catering.html">智慧餐饮</a></h4>
+									</li>
+									<li class="navSubLi">
+										<h4><a href="Wisdom-hotel.html">智慧酒店</a></h4>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navLi product">
+							<h3><a href="Product-services.html"><span>产品服务</span></a></h3>
+						</li>
+						<li class="navLi About">
+							<h3><a href="onepage.html"><span>关于我们</span></a></h3>
+						</li>
+						<li class="navLi business">
+							<h3><a href="Business.html"><span>商务合作</span></a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="navBoxm"></div>
+			</div>
+		</header>
+		<div id="box3BgId " class="hidden-xs fadeInUp wow">
+			<div id="anitOut">
+				<img src="images/Wisdom-hotel/banner@2x.png" alt="" style="width: 100%;">
+			</div>
+		</div>
+		<div class="box1Bg fadeInUp wow" style="padding-bottom: 0;">
+			<div class="box1TopBg ">
+				<div id="anitOut">
+					<img src="images/Wisdom-hotel/bg.png" alt="" style="width: 100%;">
+					<div class="wisdom_title">
+						<h2 class="mb-4 " style="margin-bottom: 4rem !important;">
+							智慧酒店解决方案
+						</h2>
+						<h2 class="mb-4 " style="margin-bottom: 4rem !important;">
+							<ul class="nav " id="myTab" role="tablist" style="display: flex;justify-content: center;">
+								<li class="nav-item">
+									<a class="nav-link active" id="profile-tab" data-toggle="0" href="javacript:void(0);" role="tab" aria-controls="profile"
+									 aria-selected="false">
+										获客
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="1" href="javacript:void(0);" role="tab" aria-controls="contact"
+									 aria-selected="false">
+										转化
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link " id="profile-tab" data-toggle="2" href="javacript:void(0);" role="tab" aria-controls="profile"
+									 aria-selected="false">
+										管理
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="3" href="javacript:void(0);" role="tab" aria-controls="contact"
+									 aria-selected="false">
+										复购
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link " id="profile-tab" data-toggle="4" href="javacript:void(0);" role="tab" aria-controls="profile"
+									 aria-selected="false">
+										数据
+									</a>
+								</li>
+							</ul>
+							
+						</h2>
+						<div class="tab-content border border-top-0" id="myTabContent" style="border: 0 !important;">
+							<div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="profile-tab">
+								<img src="images/Wisdom-hotel/tabs1.png" alt="" style="width: 100%;">
+							</div>
+							<div class="tab-pane fade "  role="tabpanel" aria-labelledby="profile-tab">
+								<img src="images/Wisdom-hotel/tabs2.png" alt="" style="width: 100%;">
+							</div>
+							<div class="tab-pane fade "  role="tabpanel" aria-labelledby="profile-tab">
+								<img src="images/Wisdom-hotel/tabs3.png" alt="" style="width: 100%;">
+							</div>
+							<div class="tab-pane fade "  role="tabpanel" aria-labelledby="profile-tab">
+								<img src="images/Wisdom-hotel/tabs4.png" alt="" style="width: 100%;">
+							</div>
+							<div class="tab-pane fade "  role="tabpanel" aria-labelledby="profile-tab">
+								<img src="images/Wisdom-hotel/tabs5.png" alt="" style="width: 100%;">
+							</div>
+						</div>
+						<script>
+							$('.nav-item a').click(function() {
+								var a = $(this).attr('data-toggle');
+								$('.nav-item a').removeClass('active');
+								$(this).addClass('active');
+								$('.tab-pane').removeClass('show active');
+								$('.tab-pane').eq(a).addClass('show active');
+							})
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-inner " role="listbox" style="padding:50px 0 ;">
+			<div id="anitOut" class="fadeInUp wow">
+				<img src="images/Wisdom-hotel/hotel1.png" alt="" style="width: 30%;float: right;margin-right: 15%;">
+				<div class="online_img2">
+					<h2 class="mb-4 ">
+						适用多种酒店类型
+					</h2>
+					<h3>
+						满足酒店微信营销需求
+					</h3>
+					<div style="margin-top: 50px;">
+						
+						<a href="javascript:void(0)" class="btn button" > 详情咨询 </a>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="carousel-inner " role="listbox" style="padding: 100px 0;background-color: #E5EBF3;">
+			<div id="anitOut" class="fadeInUp wow">
+				<img src="images/Wisdom-hotel/hotel2.png" alt="" style="width: 30%;margin-left: 10%;">
+				<div class="online_img1">
+					<h2 class="mb-4 ">
+						独立的小程序解决方案
+					</h2>
+					<h3>搭建酒店自己的直销渠道</h3>
+					<div style="margin-top: 50px;">
+						<a href="javascript:void(0)" class="btn button" >详情咨询</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-inner " role="listbox" style="padding:50px 0 ;">
+			<div id="anitOut" class="fadeInUp wow">
+				<img src="images/Wisdom-hotel/hotel3.png" alt="" style="width: 30%;float: right;margin-right: 15%;">
+				<div class="online_img3">
+					<h2 class="mb-4 ">
+						丰富的营销功能组合
+					</h2>
+					<h3>
+						裂变吸粉、激活用户、提高酒店GOP
+					</h3>
+					<div style="margin-top: 50px;">
+						
+						<a href="javascript:void(0)" class="btn button" > 详情咨询 </a>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="carousel-inner " role="listbox" style="padding: 100px 0;background-color: #E5EBF3;">
+			<div id="anitOut" class="fadeInUp wow">
+				<img src="images/Wisdom-hotel/hotel4.png" alt="" style="width: 30%;margin-left: 10%;">
+				<div class="online_img4">
+					<h2 class="mb-4 ">
+						专业的SCRM管理系统
+					</h2>
+					<h3>实现会员的全周期管理及精准化营销</h3>
+					<div style="margin-top: 50px;">
+						<a href="javascript:void(0)" class="btn button" >详情咨询</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-inner " role="listbox" style="padding:50px 0 ;">
+			<div id="anitOut" class="fadeInUp wow">
+				<img src="images/Wisdom-hotel/hotel5.png" alt="" style="width: 30%;float: right;margin-right: 15%;">
+				<div class="online_img5">
+					<h2 class="mb-4 ">
+						职业的运营指导团队
+					</h2>
+					<h3>
+						帮助酒店做好微信上的生意
+					</h3>
+					<div style="margin-top: 50px;">
+						
+						<a href="javascript:void(0)" class="btn button" > 详情咨询 </a>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!---->
+		<div class="juchi_style"></div>
+		<div id="bottom"></div>
+
+		<a href="#" class="back-to-top">
+			<i class="fa fa-angle-up">
+			</i>
+		</a>
+	</body>
+	<script>
+		$('#bottom').load('./public/Bottom.html');
+	</script>
+	
+</html>

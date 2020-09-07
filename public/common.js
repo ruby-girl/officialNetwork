@@ -19,3 +19,6 @@ document.write('' +
     '');
 document.write('<!-----------  公共js和css end----------->');
 
+
+
+

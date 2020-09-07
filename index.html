@@ -44,6 +44,7 @@
 				$('.counter').countUp();
 				// Back Top Link
 			});
+			
 		</script>
 		<script>
 			function scro() {
@@ -71,11 +72,96 @@
 				text-align: center;
 				letter-spacing: 0.4rem;
 			}
+			.index{
+				/* border-bottom: 2px solid #FFFFFF; */
+			}
+			.list{
+				position: absolute;
+				text-align: left;
+				border: 1px solid;
+				top: 31%;
+				width: 100%;
+			}
+			.list-title:hover{
+				background-color: #EAECEE;
+				cursor: pointer;
+				background-image: url(images/index/mune1.png);
+				background-repeat: no-repeat;
+				background-position: 15px 20px; 
+			}
+			
+			.list div:last-child:hover{
+				background-color: #EAECEE;
+				cursor: pointer;
+			}
+			
+			.list-title{
+				border-bottom: 1px solid;
+				padding: 1rem 2.5rem;
+				background-image: url(images/index/mune.png);
+				background-repeat: no-repeat;
+				background-position: 15px 20px; 
+			}
+			.list-title p{
+				font-size: 16px;
+				line-height: 1.5;
+			}
+			.list-box-title{
+				color: #000000;
+				margin-bottom: 10px;
+			}
+			.superiority{
+				padding: 0;
+			}
+			
 		</style>
+		
 	</head>
 	<body>
-		<div id='header'></div>
-
+		<header class="headerBg fixed-top">
+			<div class="container-fluid">
+				<div class="logo"><a href="#"><img src="images/index/logo.png" class="img-responsive" alt="" style="width: auto;height: 45px;"></a></div>
+				<div class="menuBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+		
+				<div class="clear"></div>
+				<div class="navBox hidden-xs hidden-sm">
+					<ul class="navList list-unstyled" style="float: right;">
+						<li class="navLi index ">
+							<h3><a href="index.html"><span>首页</span></a></h3>
+						</li>
+						<li class="navLi solution">
+							<h3><a href="javascript:void(0)"><span>解决方案</span></a></h3>
+							<div class="navSub">
+								<ul class="navSubList list-unstyled">
+									<li class="navSubLi">
+										<h4><a href="Wisdom-catering.html">智慧餐饮</a></h4>
+									</li>
+									<li class="navSubLi">
+										<h4><a href="Wisdom-hotel.html">智慧酒店</a></h4>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navLi product">
+							<h3><a href="Product-services.html"><span>产品服务</span></a></h3>
+						</li>
+						<li class="navLi About">
+							<h3><a href="onepage.html"><span>关于我们</span></a></h3>
+						</li>
+						<li class="navLi business">
+							<h3><a href="Business.html"><span>商务合作</span></a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="navBoxm"></div>
+			</div>
+		</header>
+		
+		
 		<div class="banner">
 			<div id="carousel-area">
 				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
@@ -114,7 +200,7 @@
 
 		<div class="box1Bg">
 			<div class="box1TopBg">
-				<div class="container mb30">
+				<div class="container mb30" >
 					<div class="clearfix mb30">
 						<div class="title text-center">
 							<h2 class="wow fadeInUp">了解我们SaaS产品</h2>
@@ -124,19 +210,69 @@
 						</div>
 						<div class="row">
 							<div class="col-xs-12 col-sm-4 col-md-4 box1Num">
-								<div class="superiority wow fadeInUp">
-									<img src="images/index/product1.png" alt="" style="width: 100%;border: 1px solid #DADADA;">
-									123
+								<div class="superiority wow fadeInUp" style="position: relative;">
+									<img src="images/index/product1.png" alt="" style="width: 100%;" >
+									<div class="list">
+										<div style="margin-top: 20px;border-top: 1px solid ;" class="list-title" onclick="javascript:window.location.href='Differential-pin-mall.html'">
+											<h5 class="list-box-title">微商城</h5>
+											<p >助力企业构建私域流量池</p>
+											<p>跨入移动社交电商时代</p>
+										</div>
+										<div class="list-title" onclick="javascript:window.location.href='Smart-Retail.html'">
+											<h5 class="list-box-title">智慧零售</h5>
+											<p >打通线下线上业务场景</p>
+											<p >助力品牌数字化经营</p>
+										</div>
+										<div style="padding: 1rem 2.5rem;" onclick="javascript:window.location.href='Product-services.html'">
+											<p style="float: left;">更多</p>
+											<p style="float: right;">﹀</p>
+											<div style="clear: both;"></div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-4 col-md-4 box1Num">
-								<div class="superiority wow fadeInUp">
-									<img src="images/index/product2.png" alt="" style="width: 100%;border: 1px solid #DADADA;">
+								<div class="superiority wow fadeInUp" style="position: relative;">
+									<img src="images/index/product2.png" alt="" style="width: 100%;" >
+									<div class="list">
+										<div style="margin-top: 20px;border-top: 1px solid ;" class="list-title" onclick="javascript:window.location.href='Wisdom-catering.html'">
+											<h5 class="list-box-title">智慧餐饮</h5>
+											<p >专业餐饮解决方案</p>
+											<p>让餐饮经营更智慧</p>
+										</div>
+										<div class="list-title" onclick="javascript:window.location.href='Wisdom-hotel.html'">
+											<h5 class="list-box-title">智慧酒店</h5>
+											<p >微信订房一键触达</p>
+											<p >微信经营更智慧</p>
+										</div>
+										<div  style="padding: 1rem 2.5rem;" onclick="javascript:window.location.href='Product-services.html'">
+											<p style="float: left;">更多</p>
+											<p style="float: right;">﹀</p>
+											<div style="clear: both;"></div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-4 col-md-4 box1Num">
-								<div class="superiority wow fadeInUp">
-									<img src="images/index/product3.png" alt="" style="width: 100%;border: 1px solid #DADADA;">
+								<div class="superiority wow fadeInUp" style="position: relative;">
+									<img src="images/index/product3.png" alt="" style="width: 100%;" >
+									<div class="list">
+										<div style="margin-top: 20px;border-top: 1px solid ;" class="list-title" onclick="javascript:window.location.href='wisdom.html'">
+											<h5 class="list-box-title">小科智农</h5>
+											<p >AIoT数字农业传感采集</p>
+											<p>终端及系统</p>
+										</div>
+										<div class="list-title" onclick="javascript:window.location.href='Product-services.html'">
+											<h5 class="list-box-title">更多产品</h5>
+											<p >更多精彩，敬请期待</p>
+											<p >&nbsp;</p>
+										</div>
+										<div  style="padding: 1rem 2.5rem;" onclick="javascript:window.location.href='Product-services.html'">
+											<p style="float: left;">更多</p>
+											<p style="float: right;">﹀</p>
+											<div style="clear: both;"></div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -194,7 +330,4 @@
 <script>
 	$('#bottom').load('./public/Bottom.html');
 </script>
-<script>
-	$('#header').load('./public/Header.html');
-</script>
-	
+

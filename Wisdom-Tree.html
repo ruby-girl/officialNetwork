@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<title>智慧树</title>
+		<meta name="description" content="科技软件...">
+		<meta name="keywords" content="科技软件,科技软件开发,科技软件..">
+		<script type="text/javascript" src="./public/common.js"></script>
+		<script>
+			var wow = new WOW({
+				boxClass: 'wow',
+				animateClass: 'animated',
+				offset: 0,
+				mobile: false,
+				live: true
+			});
+			wow.init();
+			var offset = 200;
+			var duration = 500;
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > offset) {
+					$('.back-to-top').fadeIn(400);
+				} else {
+					$('.back-to-top').fadeOut(400);
+				}
+			});
+			$('.back-to-top').click(function(event) {
+				event.preventDefault();
+				$('html, body').animate({
+					scrollTop: 0
+				}, 600);
+				return false;
+			})
+		</script>
+		<style>
+		
+			.online_img1 {
+				position: absolute;
+				top: 50px;
+				left: 10%;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				width: 80%;
+				letter-spacing: 1rem;
+				color: #FFFFFF;
+				text-align: center;
+				line-height: 300px;
+			}
+		
+			.btn {
+				color: #000000;
+				font-size: 18px;
+				border: 1px solid;
+				border-radius: 5px;
+				padding: 10px 30px;
+			}
+			
+			.btn1 {
+				color: #FFFFFF;
+				font-size: 18px;
+				border: 1px solid;
+				border-radius: 5px;
+				padding: 10px 30px;
+			}
+			
+			.btn1:hover {
+				color: #000000;
+				background-color: #FFFFFF;
+			}
+			.solution{
+				/* border-bottom: 2px solid #FFFFFF; */
+			}
+		</style>
+	</head>
+	<body>
+		<header class="headerBg fixed-top">
+			<div class="container-fluid">
+				<div class="logo"><a href="#"><img src="images/index/logo.png" class="img-responsive" alt="" style="width: auto;height: 45px;"></a></div>
+				<div class="menuBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+		
+				<div class="clear"></div>
+				<div class="navBox hidden-xs hidden-sm">
+					<ul class="navList list-unstyled" style="float: right;">
+						<li class="navLi index ">
+							<h3><a href="index.html"><span>首页</span></a></h3>
+						</li>
+						<li class="navLi solution">
+							<h3><a href="javascript:void(0)"><span>解决方案</span></a></h3>
+							<div class="navSub">
+								<ul class="navSubList list-unstyled">
+									<li class="navSubLi">
+										<h4><a href="Wisdom-catering.html">智慧餐饮</a></h4>
+									</li>
+									<li class="navSubLi">
+										<h4><a href="Wisdom-hotel.html">智慧酒店</a></h4>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="navLi product">
+							<h3><a href="Product-services.html"><span>产品服务</span></a></h3>
+						</li>
+						<li class="navLi About">
+							<h3><a href="onepage.html"><span>关于我们</span></a></h3>
+						</li>
+						<li class="navLi business">
+							<h3><a href="Business.html"><span>商务合作</span></a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="navBoxm"></div>
+			</div>
+		</header>
+		<div id="box3BgId " class="hidden-xs fadeInUp wow">
+			<div id="anitOut">
+				<img src="images/Wisdom-Tree/banner@2x.png" alt="" style="width: 100%;">
+			</div>
+		</div>
+		<div class="box1Bg">
+			<div class="box1TopBg">
+				<div class="container mb30">
+					<div class="clearfix mb30">
+						<div class="title text-center">
+							<h2 class="wow fadeInUp">生态智慧树</h2>
+							<div class="titleBrief wow fadeInUp">
+								<p></p>
+							</div>
+						</div>
+						<div class=" wow fadeInUp" style="text-align: center;line-height: 50px;">
+							<p>「分时抓图 + 环境数据视频直播」无线数据采集设备，按照时间顺序记录农作物成长的关键数据，</p>
+							<p>提供无法改变的从农场到餐桌的食材数据。传感终端包括：高清直播摄像头、光照强度传感器、温湿度传感器、海拔高度、经纬度，系统可扩展接入其他传感设备。</p>
+						</div>
+						<div class=" wow fadeInUp" style="text-align: center;">
+							<p style="margin-bottom: 50px;letter-spacing:0.2rem;font-size: 18px;">
+							</p>
+							<a href="javascript:void(0)" class="btn button" > 点击了解更多>> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+		
+		<div id="box3BgId " class="hidden-xs" style="position: initial;">
+			<div class=" wow  fadeInUp" id="anitOut">
+				<img src="images/Wisdom-Tree/tree1.png" alt="" style="width: 100%;">
+			</div>
+			<div class="wow  fadeInUp" id="anitOut" style="position: relative;">
+				<img src="images/Wisdom-Tree/tree2.png" alt="" style="width: 100%;">
+				<div class="online_img1 wow  fadeInUp">
+					<h1 style="font-size: 5rem;margin-bottom: 2rem;">
+						主要应用场景
+					</h1>
+					<h2 class="wow  fadeInUp" style="line-height:80px;">
+						连接新零售消费平台的传感软硬件智能终端系统，<br>如农产品电商平台直播、农产品二维码动态溯源、美丽乡村、古茶园等场景生态环境检测和分享。
+					</h2>
+					<div class="wow  fadeInUp">
+						<a href="javascript:void(0)" class="btn1 button" > 点击了解更多>> </a>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!---->
+		<div class="juchi_style"></div>
+		<div id="bottom"></div>
+
+		<a href="#" class="back-to-top">
+			<i class="fa fa-angle-up">
+			</i>
+		</a>
+	</body>
+	<script>
+		$('#bottom').load('./public/Bottom.html');
+	</script>
+	
+</html>
